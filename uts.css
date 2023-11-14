@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(#EBF3E8 50%,#ffffff 50%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin:10vh auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+}
+header {
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+table{
+    width: 100%;
+}
+input{
+    width: 50vh;
+} 
+.half{
+    width: 30vh;
+}
+.half-1{
+    width: 40vh;
+}
+td{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+table{
+    margin: auto;
+}
+.button{
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+button{
+    background-color: white;
+    width: 4rem;
+    box-shadow: 3px 3px 3px rgb(120, 120, 120);
+    padding: 1px;
+}
+button:hover{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}

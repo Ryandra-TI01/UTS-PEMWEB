@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS HTML</title>
+    <link rel="stylesheet" href="uts.css">
+</head>
+<body>
+    <div class="container">
+        <header><a href="#">Home</a> ><a href="#">Admin</a>  > kelola masjid</header>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nama-mesjid">Nama Mesjid</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama-mesjid" id="nama-mesjid">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="kecamatan">Kecamatan</label>
+                    </td>
+                    <td>
+                        <select name="kelurahan" id="kecamatan">
+                            <option value="Beji">Beji</option>
+                            <option value="Cipayung">Cipayung</option>
+                            <option value="Sumajaya">Sukmajaya</option>
+                            <option value="Sawangan">Sawangan</option>
+                            <option value="Tapos">Tapos</option>
+                        </select>
+                        <label for="kelurahan">Kelurahan</label>
+                        <select name="kelurahan" id="kelurahan">
+                            <option value="Kukusan">Kukusan</option>
+                            <option value="cipayung">Cipayung</option>
+                            <option value="sukmajaya">Sukmajaya</option>
+                            <option value="sawangan">Sawangan</option>
+                            <option value="tapos">Tapos</option>
+                        </select>
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fasilitas">Deskripsi Fasilitas</label>
+                    </td>
+                    <td>
+                        <textarea name="fasilitas" id="fasilitas" cols="42" rows="2"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nama">Nama pengurus DKM</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" id="nama" class="half">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="no-hp">No.HP/Telepon :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="no-hp" id="no-hp" class="half">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email :</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" class="half">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="alamat-web">Alamat Web :</label>
+                    </td>
+                    <td>
+                        <input type="url" placeholder="http://" class="half-1" id="alamat-web">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="alamat-tgl">Alamat Lengkap :</label>
+                    </td>
+                    <td>
+                        <textarea name="alamat-tgl" id="alamat-tgl" cols="42" rows="2"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="latlong">Latitude,Longitude :</label>
+                    </td>
+                    <td>
+                        <input type="text" class="half" id="latlong">
+                    </td>
+                </tr>
+            </table>
+            <div class="button">
+                <button type="submit">Simpan</button>
+                <button type="button">Update</button>
+                <button type="reset">Hapus</button>
+            </div>
+        </form>
+       
+    </div>
+</body>
+</html>
